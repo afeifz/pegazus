@@ -1,0 +1,29 @@
+/* importacoes do css */
+@import 'header.css';
+@import 'home.css';
+@import 'sobre.css';
+@import 'parceiros.css';
+@import 'ajuda.css';
+
+/* reset da pagina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* fonte definida no corpo todo */
+body {
+    font-family: 'Helvetica',sans-serif;
+    font-weight: bold;
+}
+
+
+/* variaveis */
+:root {
+    --cor-azul:#004AAD;
+    --cor-verde-clara:#2BC866;
+    --cinza: #8E8E8E;
+    --cor-verde-escura:#1A9047;
+    --fonte-main: 'Helvetica',sans-serif;
+}
+

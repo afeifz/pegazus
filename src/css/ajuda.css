@@ -1,0 +1,48 @@
+.ajuda-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.ajuda-content h2 {
+    color: var(--cor-verde-clara);
+}
+
+.ajuda-content p {
+    font-size: 13px;
+    color: #777676;
+    margin-top: 1rem;
+}
+
+.ajuda-cards {
+    display: flex;
+    margin-top: 7rem;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.ajuda-card {
+    width: 10rem;
+    border: 2px solid var(--cor-verde-clara);
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 10px;
+    height: 18rem;
+    margin-bottom: 4rem;
+    line-height: 15px;
+}
+
+.ajuda-card h4 {
+    font-size: 13px;
+    color: var(--cor-verde-clara);
+}
+
+.ajuda-card i {
+    margin-top: 1rem;
+}
+
+.ajuda-card p, li {
+    color: #777676;
+}
+

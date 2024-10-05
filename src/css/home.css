@@ -1,0 +1,43 @@
+/* alinhamento do texto no meio  */
+.home {
+    text-align: center;
+    margin-top: 3rem;
+}
+.home h1 {
+    font-size: 36px;
+    color: var(--cor-verde-clara);
+}
+.home div {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* estilizacao do input e buttom */
+
+.home div input {
+    width: 22rem;
+    margin-right: 0.3rem;
+    border: 1px solid #F0F0F0;
+    border-radius: 5px;
+    font-size: 11px;
+    padding: 0.5rem;
+}
+
+.home div button {
+    padding: 0.5rem;
+    background-color: var(--cinza);
+    border: 1px solid #F0F0F0;
+    color: #ffffff;
+    width: 7.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-family: var(--fonte-main);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home img {
+    width: 50rem;
+}

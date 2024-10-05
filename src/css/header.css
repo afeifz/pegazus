@@ -1,0 +1,60 @@
+.cabecalho hr {
+    border: 1px solid #F0F0F0;
+}
+/* Define a borda do elemento <hr> no cabeçalho com uma cor cinza clara. */
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem 1rem 0 1rem;
+    color: var(--cor-azul);
+}
+/* Cria um layout flexbox para a navegação */
+
+#botao-entrar {
+    border: 1px solid var(--cor-verde-clara);
+    color: var(--cor-verde-clara);
+    background-color: #FFFFFF;
+    font-family: var(--fonte-main);
+    width: 5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+/* Define o estilo do botão "Entrar"  */
+
+#botao-cadastrar {
+    border: 1px solid var(--cor-verde-clara);
+    color: #FFFFFF;
+    background-color: var(--cor-verde-escura);
+    font-family: var(--fonte-main);
+    width: 8rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.navegacao-titulo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.navegacao-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.navegacao-links a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--cor-azul);
+    font-weight: 600;
+}
+

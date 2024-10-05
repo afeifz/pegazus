@@ -1,0 +1,43 @@
+/* secao parceiros com 100vh pra ocupar a pagina toda */
+.parceiros {
+    height: 100vh;
+}
+
+
+/* estilizacao do banner parceiros */
+.parceiros-verde {
+    background-color: var(--cor-verde-clara);
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    height: 30rem;
+}
+
+.parceiros-verde p {
+    font-size: 13px;
+}
+
+.parceiros-verde-content {
+    display: grid;
+    gap: 2rem;
+    width: 38rem;
+}
+
+.parceiros-verde-content h2 {
+    font-size: 28px;
+}
+
+
+/* alinhamento das imagens */
+.parceiros-imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    width: 35rem;
+    border-radius: 50px;
+    padding: 0.1rem;
+}
+

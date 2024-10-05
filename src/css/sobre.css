@@ -1,0 +1,48 @@
+.sobre {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.sobre h1 {
+    font-size: 36px;
+    color: var(--cor-verde-clara);
+}
+
+.sobre p {
+    font-size: 13px;
+    color: #777676;
+    margin-top: 2rem;
+}
+
+.cards {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 20rem;
+}
+
+.card h4 {
+    color: var(--cor-verde-clara);
+}
+
+.secao-cadastrar {
+    margin-top: 4rem;
+}
+
+.secao-cadastrar h2 {
+    color: var(--cor-verde-clara);
+}
+
+.secao-cadastrar button {
+    padding: 0.7rem;
+    color: #FFFFFF;
+    background-color: var(--cor-verde-clara);
+    border: 1px solid var(--cor-verde-clara);
+    border-radius: 5px;
+    width: 12rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
